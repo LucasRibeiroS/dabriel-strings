@@ -1,0 +1,21 @@
+{
+  "name": "dabriel-strings",
+  "version": "1.0.0",
+  "description": "Algorithm developed to solve the problem 'Dabriel and his Strings'",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start:dev": "node --watch dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
